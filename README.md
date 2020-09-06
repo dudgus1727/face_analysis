@@ -12,3 +12,10 @@ This program checks to wear mask and performs face analysis(emotion, age, gender
 - filelock
 - gdown
 - urllib3
+
+## model weights
+mask model weight : https://drive.google.com/file/d/151yGyo7sCnfFMUutnruLnGDH_ZryEoIF/view?usp=sharing
+
+(Make './weights' folder and move this weight file to './weights')
+
+Emotion, age, gender model use the trained model of [deepface](https://github.com/serengil/deepface)
